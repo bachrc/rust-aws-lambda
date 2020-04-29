@@ -15,5 +15,7 @@ fn helloworld(request: Json<HelloWorldRequest>) -> Json<HelloWorldMessage> {
 }
 
 fn main() {
-    rocket::ignite().mount("/", routes![helloworld]).launch();
+    rocket::ignite()
+        .mount("/", routes![helloworld])
+        .launch();
 }

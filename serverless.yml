@@ -17,7 +17,7 @@ functions:
   # In this project, we only have one lambda function called `lucky_numbers`.
   hello-world:
     # The name of the handler must match the name of the crate (not the actual function defined within).
-    handler: lambda_dispatcher.hello-world
+    handler: lambda_dispatcher.helloworld-handler
 
     # This tells AWS when to trigger our function.
     events:
