@@ -11,7 +11,7 @@ use spotipal_business::helloworld_service::compute_helloworld_message;
 
 #[post("/hello-world", data = "<request>")]
 fn helloworld(request: Json<HelloWorldRequest>) -> Json<HelloWorldMessage> {
-    Json(compute_helloworld_message(request.0))
+    Json(compute_helloworld_message(&request.0))
 }
 
 fn main() {
