@@ -1,7 +1,9 @@
 # AWS Lambda Rust Application Example
 
 This repository contains an architecture of an AWS Lambda Rust Application. 
-This couldn't have been possible without the great article from (SilentByte)[https://silentbyte.com/writing-aws-lambda-functions-in-rust].
+This couldn't have been possible without the great article from [SilentByte](https://silentbyte.com/writing-aws-lambda-functions-in-rust).
+
+*To-do soon : Putting a good structure of tests* 
 
 ## Architecture
 
